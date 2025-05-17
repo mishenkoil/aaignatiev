@@ -89,6 +89,7 @@ export const InfoCard: FC<Props> = ({
               as={Link}
               href={url}
               size="lg"
+              target="_blank"
             >
               <img alt="Arrow up-right icon" src={ARROW_UP_RIGHT_ICON} />
             </Button>

@@ -1,2 +1,2 @@
-export * from "./IntroBlock";
-export * from "./StatisticsBlock";
+export * from "./ListBlock";
+export * from "./SocialLinks";
