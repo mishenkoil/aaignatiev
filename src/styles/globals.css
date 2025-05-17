@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    -webkit-font-smoothing: auto !important;
+    -moz-osx-font-smoothing: auto !important;
+    text-rendering: auto !important;
+}
+
+html {
+    font-family: var(--font-inter), sans-serif;
+    color-scheme: dark!important;
+}
+
+body:has(#navbar-mobile[data-active=true]) {
+    overflow: hidden;
+
+    @media (min-width: 1024px) {
+        overflow: auto;
+    }
+}
+
+.bg-background {
+    --tw-bg-opacity: 1;
+    background-color: #030207;
+}
+
+.bg-default {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.rounded-large {
+    border-radius: 42px;
+}
+
+.p-3 {
+    padding: 0.75rem 0;
+}
